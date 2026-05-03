@@ -1,0 +1,15 @@
+# Environments
+venv/
+
+# Python caches (these are cluttering your tree right now)
+__pycache__/
+*.pyc
+
+# Heavy Datasets
+data/*.h5ad
+
+# Model Weights (Optional: comment out if you WANT to upload your .pt files)
+checkpoints/*.pt
+
+# OS generated files
+.DS_Store
