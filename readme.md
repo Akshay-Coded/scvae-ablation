@@ -59,7 +59,7 @@ python3 -m utils.evaluation
 ### 3. Run Quantitative Analysis
 To calculate ARI scores, Silhouette scores, generative reconstruction fidelity, and cluster distance heatmaps:
 ```
-python scripts/quantitative_analysis.py
+python -m scripts.quantitative_analysis
 python -m scripts.advanced_analysis
 ```
 
